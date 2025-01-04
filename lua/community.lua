@@ -11,5 +11,8 @@ return {
   { import = "astrocommunity.colorscheme.palenight-nvim" },
   { import = "astrocommunity.color.nvim-highlight-colors" },
   { import = "astrocommunity.snippet.nvim-snippets" },
+  -- { import = "astrocommunity.code-runner.compiler-nvim" },
   -- { import = "astrocommunity.color.huez-nvim" },
+  { import = "astrocommunity.code-runner.executor-nvim" },
+  { import = "astrocommunity.git.neogit" },
 }
