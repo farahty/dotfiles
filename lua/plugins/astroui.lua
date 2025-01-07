@@ -3,6 +3,7 @@ return {
   opts = {
     -- colorscheme = "tokyonight-storm",
     colorscheme = "astrodark",
+    -- colorscheme = "chadracula",
     -- Icons can be configured throughout the interface
     icons = {
       LSPLoading1 = "⠋",

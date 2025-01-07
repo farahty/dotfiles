@@ -8,6 +8,7 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- import/override with your plugins folder
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.tokyodark-nvim" },
@@ -18,8 +19,8 @@ return {
   -- { import = "astrocommunity.snippet.nvim-snippets" },
   -- { import = "astrocommunity.code-runner.compiler-nvim" },
   -- { import = "astrocommunity.color.huez-nvim" },
-  { import = "astrocommunity.code-runner.executor-nvim" },
-  { import = "astrocommunity.git.neogit" },
-  { import = "astrocommunity.recipes.vscode-icons" },
-  { import = "astrocommunity.recipes.telescope-nvchad-theme" },
+  -- { import = "astrocommunity.code-runner.executor-nvim" },
+  -- { import = "astrocommunity.git.neogit" },
+  -- { import = "astrocommunity.recipes.vscode-icons" },
+  -- { import = "astrocommunity.recipes.telescope-nvchad-theme" },
 }
