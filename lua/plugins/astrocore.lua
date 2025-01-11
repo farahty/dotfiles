@@ -29,7 +29,7 @@ return {
         ["[b"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
 
         ["<Leader>aq"] = { "<cmd> t. <cr>", desc = "Duplicate Current Line" },
-        ["qq"] = { "<cmd> t. <cr>", desc = "Duplicate Current Line" },
+        -- ["qq"] = { "<cmd> t. <cr>", desc = "Duplicate Current Line" },
         ["<Leader>c"] = {
           function()
             local bufs = vim.fn.getbufinfo { buflisted = 1 }
